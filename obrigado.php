@@ -8,27 +8,20 @@ require "config/url.class.php";
 
 <head>
 	<?php include "components/heads.php"; ?>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./assets/css/swiper.css">
 </head>
 
-<body>
-	<section class="bg-color1">
-		<?php include "components/navbar.php" ?>
-		<div class="grid max-w-screen-xl px-4 pb-40 lg:pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12 lg:pt-5">
-            
-        </div>
-    </section>
-
-	<footer class="bg-color1">
-		<div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-			<div class="text-center">
-				<a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-white">
-					<img src="./assets/img/logo.png" class="h-6 mr-3 sm:h-9" alt="Pintow Logo" />
-				</a>
-				<span class="block text-sm text-center text-white">© Copyright 2023. All Rights Reserved.
-				</span>
+<body class="bg-color1">
+	<section class="mx-auto max-w-7xl px-2 pt-4 h-screen">
+		<div class="grid grid-cols-1 gap-8 justify-items-center content-center h-full">
+			<div class="mb-4 w-5/6 md:w-1/2 flex justify-center">
+				<img class="w-1/4" src="<?php echo $URI->base("/assets/img/logo2.png"); ?>" alt="">
 			</div>
+			<div class="w-5/6 h-80  md:w-1/2 bg-white rounded-lg">01</div>
+  			<div class="w-5/6 h-52  md:w-1/2 bg-white rounded-lg">02</div>
 		</div>
-	</footer>
+	</section>
 	<script src="./assets/js/script.js"></script>
 	<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
