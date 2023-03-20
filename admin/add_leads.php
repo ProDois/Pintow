@@ -15,7 +15,7 @@ if (empty($name)) {
 }
 
 if (!isset($errMSG)) {
-  $stmt = $DB_con->prepare('INSERT INTO leads 
+  $stmt = $pdo->prepare('INSERT INTO leads 
     (name,address,email,phone,city,profession,term_wpp,term_email) VALUES
     (:uname,:uaddress,:uemail,:uphone,:ucity,:uprofession,:uterm_wpp,:uterm_email)');
   $stmt->bindParam(':uname', $name);
