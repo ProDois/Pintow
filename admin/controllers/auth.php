@@ -25,6 +25,8 @@ session_start();
 $_SESSION['id'] = $user['id'];
 $_SESSION['name'] = $user['name]'];
 $_SESSION['email'] = $user['email'];
+ /*Aqui informo se o mesmo se encontra logado*/
+ $_SESSION['logado'] = true;
 
 $action = "login";
 $date_time = date('Y-m-d H:i:s');
