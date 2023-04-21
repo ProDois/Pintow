@@ -28,7 +28,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 <link href="./assets/img/icon.png" rel="apple-touch-icon">
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<meta name="google-site-verification" content="MVrP_wR0GDVKy0MRX6yX77hfuCPUCPc0TFYyAZ0q0bw" />
 <script>
 	tailwind.config = {
 		theme: {

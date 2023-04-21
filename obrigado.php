@@ -19,7 +19,7 @@ require "config/url.class.php";
 				<img class="w-1/2 lg:w-100" src="<?php echo $URI->base("/assets/img/logo2.png"); ?>" alt="">
 			</div>
 			<div class="w-5/6 md:w-1/2 bg-white rounded-xl pb-10">
-				<div class="container p-3">
+				<div class="p-3">
 					<h1 class="my-8 text-gray-600 text-center text-xs">Cadastro feito com sucesso!</h1>
 					<p class="lg:p-5 text-center lg:text-3xl text-2xl text-color1 font-extrabold">
 						Em breve você vai participar de todas as nossas novidades.
