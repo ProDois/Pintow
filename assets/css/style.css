@@ -161,6 +161,7 @@ section {
   width: 100%;
   height: 60vh;
   background-color: #2F72A3;
+  background-image: url('http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TELA-CAPA_3a.png');
 }
 
 /*Ink Types*/
@@ -192,4 +193,66 @@ section {
   font-family: 'Montserrat', sans-serif;
   margin-top: 24px;
   font-weight: 300;
+}
+
+/*Product Grid Area*/
+.ProductGridArea {
+  padding: 40px 10vw;
+}
+
+.SectionTittle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.CardProduct {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #F6F6F6;
+  width: 300px;
+  padding: 60px 20px 10px 20px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.CardImageArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ClassProduct {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 10px;
+  border: 1px #EFDFDF solid;
+}
+
+.FavoriteButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.CardImageArea img {
+  width: 80%;
+}
+
+.DivisorCard {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #C4C4C4;
+  margin: 10px 0;
+}
+
+.CardNameProduct,
+.CardProductPrice {
+  text-align: center;
 }
