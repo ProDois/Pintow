@@ -73,6 +73,7 @@ section {
 
 /*************************Home Commerce**************************/
 
+/*Topbar*/
 .Topbar {
   display: flex;
   justify-content: space-between;
@@ -81,6 +82,7 @@ section {
   background-color: #F8F8F8;
   padding: 12px 5vw;
   font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 .Topbar_whatsappButton {
@@ -111,6 +113,7 @@ section {
   color: #8C71C5;
 }
 
+/*NavBar*/
 .Navbar-Home {
   display: flex;
   justify-content: space-between;
@@ -151,4 +154,11 @@ section {
   font-weight: 500;
   border-radius: 4px;
   margin-right: 24px;
+}
+
+/*Banner Home*/
+.Banner-Home {
+  width: 100%;
+  height: 60vh;
+  background-color: #2F72A3;
 }

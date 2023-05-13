@@ -62,11 +62,15 @@ require "config/url.class.php";
             <div class="NavButtons">
                 <a href="">Comprar pelo Whats</a>
                 <a href=""><img src="<?php echo $URI->base("/assets/img/usuario_icon.svg"); ?>" alt=""> Entrar ou Registrar</a>
-                <a href=""><img src="<?php echo $URI->base("/assets/img/caminhao-de-mao_icon.svg"); ?>" alt="">Carrinho</a>
+                <a class="Carrinho" href=""><img src="<?php echo $URI->base("/assets/img/caminhao-de-mao_icon.svg"); ?>" alt="">Carrinho</a>
             </div>
         </div>
     </nav>
 
+    <!--Banner Area-->
+    <section class="Banner-Home">
+
+    </section>
     
 </body>
 </html>
