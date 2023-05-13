@@ -72,5 +72,39 @@ require "config/url.class.php";
 
     </section>
     
+    <!--Ink Types-->
+    <section class="InkTypesArea">
+        <!--Ink Type-->
+        <a class="InkType" href="">
+            <img src="<?php echo $URI->base("/assets/img/icons/efeitos-decorativos_icon.svg"); ?>" alt="">
+            <p>Efeitos Decorativos</p>
+        </a>
+        <!--Ink Type-->
+        <a class="InkType" href="">
+            <img src="<?php echo $URI->base("/assets/img/icons/massas_icon.svg"); ?>" alt="">
+            <p>Massas</p>
+        </a>
+        <!--Ink Type-->
+        <a class="InkType" href="">
+            <img src="<?php echo $URI->base("/assets/img/icons/externa_icon.svg"); ?>" alt="">
+            <p>Externa</p>
+        </a>
+        <!--Ink Type-->
+        <a class="InkType" href="">
+            <img src="<?php echo $URI->base("/assets/img/icons/internas_icon.svg"); ?>" alt="">
+            <p>Internas</p>
+        </a>
+        <!--Ink Type-->
+        <a class="InkType" href="">
+            <img src="<?php echo $URI->base("/assets/img/icons/esmaltes_icon.svg"); ?>" alt="">
+            <p>Esmaltes</p>
+        </a>
+        <!--Ink Type-->
+        <a class="InkType" href="">
+            <img src="<?php echo $URI->base("/assets/img/icons/verniz_icon.svg"); ?>" alt="">
+            <p>Verniz</p>
+        </a>
+    </section>
+
 </body>
 </html>
