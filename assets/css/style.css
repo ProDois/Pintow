@@ -110,3 +110,45 @@ section {
   font-weight: 400;
   color: #8C71C5;
 }
+
+.Navbar-Home {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  padding: 24px 5vw;
+}
+
+.RightNavbar {
+  display: flex;
+  align-items: center;
+}
+
+.NavLogo img{
+  height: 50px;
+  margin-right: 80px;
+}
+
+.NavLinks {
+  display: flex;
+}
+
+.NavLinks li{
+  margin-right: 80px;
+  font-weight: 500;
+}
+
+.NavButtons {
+  display: flex;
+}
+
+.NavButtons a{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px #18A0FB solid;
+  color: #18A0FB;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-right: 24px;
+}
