@@ -207,15 +207,32 @@ section {
   text-align: center;
 }
 
+.ProductGridCards {
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: repeat(4, calc((100% / 4) - 30px));
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+
 .CardProduct {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
   background-color: #F6F6F6;
-  width: 300px;
-  padding: 60px 20px 10px 20px;
+  padding: 60px 20px 20px 20px;
   border-radius: 12px;
   position: relative;
+}
+
+.CardProduct.GridCard2colum {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-size: 20px;
+  padding: 120px 40px 40px 40px;
 }
 
 .CardImageArea {
@@ -233,12 +250,28 @@ section {
   padding: 2px 4px;
   border-radius: 10px;
   border: 1px #EFDFDF solid;
+  font-weight: 300;
+}
+
+.CardProduct.GridCard2colum .ClassProduct{
+  top: 40px;
+  left: 40px;
+  font-size: 18px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 1px #EFDFDF solid;
 }
 
 .FavoriteButton {
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+.CardProduct.GridCard2colum .FavoriteButton {
+  top: 40px;
+  right: 40px;
+  scale: 2;
 }
 .CardImageArea img {
   width: 80%;
@@ -252,7 +285,16 @@ section {
   margin: 10px 0;
 }
 
+.CardProduct.GridCard2colum .DivisorCard {
+  height: 2px;
+  margin: 20px 0;
+}
+
 .CardNameProduct,
 .CardProductPrice {
   text-align: center;
+}
+
+.CardProduct.GridCard2colum .CardNameProduct {
+  margin-top: 20px;
 }
