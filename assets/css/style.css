@@ -79,7 +79,7 @@ section {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #F8F8F8;
+  background-color: #3E4095;
   padding: 12px 5vw;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -92,15 +92,15 @@ section {
 
 .Topbar_whatsappButton p {
   margin-left: 5px;
-  color: #B89B9B;
+  color: #fff;
 }
 
 .Topbar_ChangeRegion {
   display: flex;
   align-items: center;
-  color: #B89B9B;
+  color: #B4B4B4;
   background-color: #fff;
-  padding: 4px 8px;
+  padding: 8px 16px;
   border-radius: 8px;
 }
 
@@ -109,8 +109,12 @@ section {
 }
 
 .Topbar_ChangeRegion p  b {
-  font-weight: 400;
+  font-weight: 600;
   color: #8C71C5;
+}
+
+.Topbar_ChangeRegion svg {
+  fill: #8C71C5;
 }
 
 /*NavBar*/
@@ -138,6 +142,7 @@ section {
 .NavLinks li{
   margin-right: 80px;
   font-weight: 500;
+  color: #3E4095;
 }
 
 .NavButtons {
@@ -147,13 +152,17 @@ section {
 .NavButtons a{
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  border: 1px #18A0FB solid;
-  color: #18A0FB;
+  padding: 8px 16px;
+  border: 1px #6EC3FC solid;
+  color: #6EC3FC;
   font-size: 14px;
   font-weight: 500;
-  border-radius: 4px;
-  margin-right: 24px;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+
+.NavButtons a img {
+  margin-right: 5px;
 }
 
 /*Banner Home*/
@@ -161,7 +170,13 @@ section {
   width: 100%;
   height: 60vh;
   background-color: #2F72A3;
-  background-image: url('http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TELA-CAPA_3a.png');
+  background-image: url('http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TELA-CAPA_4-1.png');
+}
+
+.Detalhe {
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(90deg, rgba(236,38,143,1) 0%, rgba(8,141,210,1) 19%, rgba(245,134,52,1) 38%, rgba(168,207,69,1) 58%, rgba(62,64,149,1) 79%, rgba(255,0,0,1) 100%);
 }
 
 /*Ink Types*/
@@ -220,10 +235,18 @@ section {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  background-color: #F6F6F6;
   padding: 60px 20px 20px 20px;
   border-radius: 12px;
   position: relative;
+  transition: .1s;
+  border: 1px #d8d8d8 solid;
+  background: #f5f5f5;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+}
+
+.CardProduct:hover {
+  background-color: #3E4095;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }
 
 .CardProduct.GridCard2colum {
@@ -246,11 +269,20 @@ section {
   position: absolute;
   top: 20px;
   left: 20px;
-  font-size: 10px;
-  padding: 2px 4px;
-  border-radius: 10px;
-  border: 1px #EFDFDF solid;
-  font-weight: 300;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 1px #8283c4 solid;
+  font-weight: 400;
+  transition: .2s;
+  color: #8283c4;
+}
+
+.CardProduct:hover  .ClassProduct {
+  background-color: #5051a5;
+  border: 1px #5051a5 solid;
+  color: #fff;
+  font-weight: 400;
 }
 
 .CardProduct.GridCard2colum .ClassProduct{
@@ -268,6 +300,10 @@ section {
   right: 20px;
 }
 
+.CardProduct:hover .FavoriteButton {
+  display: none;
+}
+
 .CardProduct.GridCard2colum .FavoriteButton {
   top: 40px;
   right: 40px;
@@ -281,8 +317,12 @@ section {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #C4C4C4;
+  background-color: #e2e2e2;
   margin: 10px 0;
+}
+
+.CardProduct:hover .DivisorCard{
+  background-color: #5051a5;
 }
 
 .CardProduct.GridCard2colum .DivisorCard {
@@ -293,6 +333,22 @@ section {
 .CardNameProduct,
 .CardProductPrice {
   text-align: center;
+}
+
+.CardProductPrice {
+  font-size: 18px;
+  font-family: 'inter';
+  font-weight: 700;
+  color: #3E4095;
+}
+
+.CardProduct:hover .CardNameProduct,
+.CardProduct:hover .CardProductPrice {
+  color: #cfcfe4;
+}
+
+.CardProduct:hover .CardProductPrice {
+  color: rgb(255, 255, 255);
 }
 
 .CardProduct.GridCard2colum .CardNameProduct {
