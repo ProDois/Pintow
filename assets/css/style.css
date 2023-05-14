@@ -395,3 +395,29 @@ footer {
   margin-top: 10px;
   color: #38433F;
 }
+
+.FooterInferior {
+  display: flex;
+}
+
+.LeftFooterInferior {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.ColumnFooterInferior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ColumnFooterInferior li {
+  margin-right: 10px;
+}
+
+.RigthFooterInferior {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}

@@ -490,6 +490,37 @@ require "config/url.class.php";
         <!--Section Divisor-->
         <span class="SectionDivisor"></span>
 
+        <!--Footer Inferior-->
+        <section class="FooterInferior">
+            <div class="LeftFooterInferior">
+                <div class="ColumnFooter">
+                    <h4 class="ColumnFooterTitle">Formas de pagamento</h4>
+                    <ul class="ColumnFooterInferior">
+                        <li><img src="<?php echo $URI->base("/assets/img/visa-logo-1.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/Mastercard-Logo.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/Elo_logo.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/PayPal-Logo.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/mercado-pago-logo 1.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/pix-bc-logo-1 1.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/barcode-png 1.png"); ?>" alt=""></li>
+                    </ul>
+                </div>
+    
+                <div class="ColumnFooter">
+                    <h4 class="ColumnFooterTitle">Compra segura</h4>
+                    <ul class="ColumnFooterInferior">
+                        <li><img src="<?php echo $URI->base("/assets/img/segurança_logos.png"); ?>" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="RigthFooterInferior">
+                <!--Logo-->
+                <div class="NavLogo">
+                    <img src="<?php echo $URI->base("/assets/img/Logo_Pintow_Roxo.svg"); ?>" alt="">
+                </div>
+            </div>
+        </section>
     </footer>
 
 </body>
