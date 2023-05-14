@@ -418,11 +418,79 @@ require "config/url.class.php";
 
     </section>
 
-
     <!-- Bottom Banner Home -->
     <section class="BottomBanner-Home">
-    <img src="<?php echo $URI->base("/assets/img/bottom_banner-home.jpg"); ?>" alt="">
+        <img src="<?php echo $URI->base("/assets/img/bottom_banner-home.jpg"); ?>" alt="">
     </section>
+    
+    <!--Footer-->
+    <footer>
+        <!--Section Divisor-->
+        <span class="SectionDivisor"></span>
+
+        <!--Footer Superior-->
+        <section class="FooterSuperior">
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Atendimento</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Acompanhar pedido</a></li>
+                    <li><a href="">Perguntas frequentes </a></li>
+                    <li><a href="">Atendimento pelo WhatsApp</a></li>
+                    <li><a href="">Compre pelo instagram</a></li>
+                    <li><a href="">Tudo sobre nossas tintas</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Como trabalhamos</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Como comprar</a></li>
+                    <li><a href="">Pagamento</a></li>
+                    <li><a href="">Termos e condições de uso</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Troca e devolução</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Pintow para você</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Compra Planejada</a></li>
+                    <li><a href="">Ofertas Especiais</a></li>
+                    <li><a href="">Pacote Reforma</a></li>
+                    <li><a href="">Lojas Parceiras</a></li>
+                    <li><a href="">Arquiteto Pintow</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Institucional</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Sobre a Pintow</a></li>
+                    <li><a href="">Nossa Experiência</a></li>
+                    <li><a href="">Imprensa</a></li>
+                    <li><a href="">Lojas Parceiras</a></li>
+                    <li><a href="">Ranking</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Cartelas</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Cartela Pisos </a></li>
+                    <li><a href="">Cartela Esmaltes</a></li>
+                    <li><a href="">Cartela Texturas</a></li>
+                    <li><a href="">Cartela Tintas</a></li>
+                    <li><a href="">Cartela Colors 20</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Section Divisor-->
+        <span class="SectionDivisor"></span>
+
+    </footer>
 
 </body>
 </html>
