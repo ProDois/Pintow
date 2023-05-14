@@ -10,7 +10,7 @@ require "config/url.class.php";
 <head>
 	<?php include "components/heads.php"; ?>
 </head>
-</head>
+
 <body>
     <!--Top Bar-->
     <section class="Topbar">
