@@ -244,11 +244,6 @@ section {
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
 }
 
-.CardProduct:hover {
-  background-color: #3E4095;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
-}
-
 .CardProduct.GridCard2colum {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -278,12 +273,7 @@ section {
   color: #8283c4;
 }
 
-.CardProduct:hover  .ClassProduct {
-  background-color: #5051a5;
-  border: 1px #5051a5 solid;
-  color: #fff;
-  font-weight: 400;
-}
+
 
 .CardProduct.GridCard2colum .ClassProduct{
   top: 40px;
@@ -298,10 +288,6 @@ section {
   position: absolute;
   top: 20px;
   right: 20px;
-}
-
-.CardProduct:hover .FavoriteButton {
-  display: none;
 }
 
 .CardProduct.GridCard2colum .FavoriteButton {
@@ -321,10 +307,6 @@ section {
   margin: 10px 0;
 }
 
-.CardProduct:hover .DivisorCard{
-  background-color: #5051a5;
-}
-
 .CardProduct.GridCard2colum .DivisorCard {
   height: 2px;
   margin: 20px 0;
@@ -342,6 +324,32 @@ section {
   color: #3E4095;
 }
 
+.CardProduct.GridCard2colum .CardNameProduct {
+  margin-top: 20px;
+}
+
+/*Card Product Hover*/
+.CardProduct:hover {
+  background-color: #3E4095;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+.CardProduct:hover  .ClassProduct {
+  background-color: #5051a5;
+  border: 1px #5051a5 solid;
+  color: #fff;
+  font-weight: 400;
+}
+
+.CardProduct:hover .FavoriteButton {
+  display: none;
+}
+
+.CardProduct:hover .DivisorCard{
+  background-color: #5051a5;
+}
+
+
 .CardProduct:hover .CardNameProduct,
 .CardProduct:hover .CardProductPrice {
   color: #cfcfe4;
@@ -349,8 +357,4 @@ section {
 
 .CardProduct:hover .CardProductPrice {
   color: rgb(255, 255, 255);
-}
-
-.CardProduct.GridCard2colum .CardNameProduct {
-  margin-top: 20px;
 }
