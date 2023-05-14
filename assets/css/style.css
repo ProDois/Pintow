@@ -358,3 +358,8 @@ section {
 .CardProduct:hover .CardProductPrice {
   color: rgb(255, 255, 255);
 }
+
+/*Bottom Banner Home*/
+.BottomBanner-Home {
+  padding: 40px 10vw;
+}

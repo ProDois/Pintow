@@ -414,9 +414,14 @@ require "config/url.class.php";
                 <h4 class="CardProductPrice">R$ 300,00</h4>
             </div>
 
-            
         </section>
 
+    </section>
+
+
+    <!-- Bottom Banner Home -->
+    <section class="BottomBanner-Home">
+    <img src="<?php echo $URI->base("/assets/img/bottom_banner-home.jpg"); ?>" alt="">
     </section>
 
 </body>
