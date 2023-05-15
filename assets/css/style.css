@@ -160,6 +160,10 @@ section {
   background-color: transparent;
 }
 
+.SearchBox input:focus {
+  outline: 0;
+}
+
 .NavLinks li{
   margin-right: 80px;
   font-weight: 500;
@@ -447,3 +451,24 @@ footer {
   align-items: center;
 }
 
+
+/*Conteiner Product*/
+.ContainerProduct {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10vw;
+}
+
+.ImageProductArea {
+  width: 47.5%;
+}
+
+.ImageProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InfoProductArea {
+  width: 47.5%;
+}

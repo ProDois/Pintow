@@ -77,4 +77,32 @@ require "config/url.class.php";
 
     <!--Section Divisor-->
     <span class="SectionDivisor ProductPage"></span>
+
+
+    <!--Conteiner Product-->
+    <section class="ContainerProduct">
+        <!--Image Product Area-->
+        <section class="ImageProductArea">
+            <!--Image-->
+            <div class="ImageProduct">
+                <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xTOQUE_SUAVE2.png.pagespeed.ic_.pU3B6piX1Q.png" alt="">
+            </div>
+            <h2>Cores</h2>
+            <!--Colors-->
+            <div class="Colors">
+                <span class="ColorSelection"></span>
+            
+            </div>
+        </section>
+
+        <!--Info Product  Area-->
+        <section class="InfoProductArea">
+            <h1 class="NameProduct">TINTAS VERBRAS PREMIUM - TOQUE SUAVE ACETINADO SOFISTICADO</h1>
+            <div class="ColorId">
+                <p>Cor: Lilás</p>
+                <p>ID: 406329</p>
+            </div>
+        </section>
+
+    </section>
 </body>
