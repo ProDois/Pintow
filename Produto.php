@@ -67,11 +67,13 @@ require "config/url.class.php";
         <!--Left-->
         <div class="LeftNavbar">
             <!--Nav Buttons-->
+            <!--
             <div class="NavButtons">
                 <a href="">Comprar pelo Whats</a>
                 <a href=""><img src="<?php echo $URI->base("/assets/img/usuario_icon.svg"); ?>" alt=""> Entrar ou Registrar</a>
                 <a class="Carrinho" href=""><img src="<?php echo $URI->base("/assets/img/caminhao-de-mao_icon.svg"); ?>" alt="">Carrinho</a>
             </div>
+            -->
         </div>
     </nav>
 
@@ -87,11 +89,33 @@ require "config/url.class.php";
             <div class="ImageProduct">
                 <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xTOQUE_SUAVE2.png.pagespeed.ic_.pU3B6piX1Q.png" alt="">
             </div>
-            <h2>Cores</h2>
+            <h2 class="SubTitleInfoProduct ColorsTitle">Cores</h2>
             <!--Colors-->
             <div class="Colors">
+
+                <span class="ColorSelection Roxo"></span>
+
+                <span class="ColorSelection Yellow"></span>
+
+                <span class="ColorSelection Red"></span>
+
+                <span class="ColorSelection Green"></span>
+
                 <span class="ColorSelection"></span>
-            
+
+                <span class="ColorSelection"></span>
+
+                <span class="ColorSelection"></span>
+
+                <span class="ColorSelection"></span>
+
+                <span class="ColorSelection"></span>
+
+                <span class="ColorSelection"></span>
+
+                <span class="ColorSelection"></span>
+
+                <span class="ColorSelection"></span>
             </div>
         </section>
 
@@ -107,8 +131,8 @@ require "config/url.class.php";
             <!--Other Finishes-->
             <h2 class="SubTitleInfoProduct">Outros Acabamentos</h2>
             <div class="OtherFinishes">
-                <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xTOQUE_SUAVE2.png.pagespeed.ic_.pU3B6piX1Q.png" alt="">
-                <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xTOQUE_SUAVE2.png.pagespeed.ic_.pU3B6piX1Q.png" alt="">
+                <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xESMALTE_BASE_AGUA.png.pagespeed.ic_.9kVlpN3_Pm.png" alt="">
+                <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xverniz_triplo.png.pagespeed.ic_.SmyRtM_dwH.png" alt="">
             </div>
 
             <!--Prince Amount-->

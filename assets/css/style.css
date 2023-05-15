@@ -123,6 +123,7 @@ section {
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   padding: 24px 5vw;
+  background-color: #fff;
 }
 
 .RightNavbar {
@@ -470,11 +471,49 @@ footer {
   align-items: center;
 }
 
+.Colors {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.ColorSelection {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px #C2C2C2 solid;
+  border-radius: 50%;
+}
+
+.ColorSelection.Roxo {
+  background-color: #3E4095;
+}
+
+.ColorSelection.Yellow {
+  background-color: #dae90e;
+}
+
+.ColorSelection.Red {
+  background-color: #e40f0f;
+}
+
+.ColorSelection.Green {
+  background-color: #13d10c;
+}
+
+
+/*Info Product*/
 .InfoProductArea {
   width: 47.5%;
   border: 1px #C2C2C2 solid;
   border-radius: 15px;
   padding: 40px;
+  height: fit-content;
 }
 
 .NameProduct {
@@ -497,6 +536,11 @@ footer {
   margin-bottom: 10px;
   text-align: center;
   margin-top: 40px;
+}
+
+.SubTitleInfoProduct.ColorsTitle {
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .OtherFinishes {
