@@ -46,9 +46,9 @@ require "config/url.class.php";
         <!--Right-->
         <div class="RightNavbar">
             <!--Logo-->
-            <div class="NavLogo">
+            <a class="NavLogo">
                 <img src="<?php echo $URI->base("/assets/img/Logo_Pintow_Roxo.svg"); ?>" alt="">
-            </div>
+            </a>
             
         </div>
 
@@ -89,7 +89,7 @@ require "config/url.class.php";
             <div class="ImageProduct">
                 <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xTOQUE_SUAVE2.png.pagespeed.ic_.pU3B6piX1Q.png" alt="">
             </div>
-            <h2 class="ColorsTitle">Cores</h2>
+            <h2 class="ColorsTitle">Cores Prontas</h2>
             <!--Colors-->
             <div class="Colors">
 
@@ -202,7 +202,7 @@ require "config/url.class.php";
                 <svg width="24" height="24" viewBox="0 0 46 46" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path d="M43.5417 32.0833H11.4583C10.8505 32.0833 10.2677 31.8419 9.83788 31.4121C9.40811 30.9823 9.16667 30.3995 9.16667 29.7917C9.16667 29.1839 9.40811 28.601 9.83788 28.1712C10.2677 27.7414 10.8505 27.5 11.4583 27.5H35.3833C36.9157 27.5001 38.4041 26.9883 39.6123 26.0458C40.8205 25.1033 41.6792 23.7842 42.0521 22.2979L45.8333 7.425C45.9192 7.08677 45.9266 6.7334 45.8551 6.39185C45.7836 6.0503 45.6351 5.72959 45.4208 5.45417C45.198 5.17168 44.9117 4.94564 44.5852 4.79435C44.2588 4.64306 43.9013 4.57077 43.5417 4.58333H10.9083C10.4355 3.24603 9.56067 2.0877 8.40369 1.26715C7.24671 0.446597 5.86425 0.00398638 4.44583 0H2.29167C1.68388 0 1.10098 0.241443 0.671214 0.671214C0.241443 1.10098 0 1.68388 0 2.29167C0 2.89945 0.241443 3.48235 0.671214 3.91212C1.10098 4.34189 1.68388 4.58333 2.29167 4.58333H4.44583C4.96933 4.56808 5.48226 4.7326 5.89922 5.04949C6.31619 5.36638 6.61203 5.81653 6.7375 6.325L6.875 7.425L10.8396 22.9167C9.01622 22.9987 7.30013 23.8017 6.06884 25.1491C4.83754 26.4964 4.19191 28.2777 4.27396 30.101C4.35601 31.9244 5.15903 33.6405 6.50636 34.8718C7.85369 36.1031 9.63497 36.7487 11.4583 36.6667H11.8708C11.4939 37.7051 11.3728 38.819 11.5178 39.9142C11.6627 41.0094 12.0694 42.0535 12.7034 42.9581C13.3375 43.8628 14.1802 44.6013 15.1602 45.1112C16.1402 45.621 17.2286 45.8872 18.3333 45.8872C19.438 45.8872 20.5265 45.621 21.5065 45.1112C22.4865 44.6013 23.3292 43.8628 23.9632 42.9581C24.5973 42.0535 25.004 41.0094 25.1489 39.9142C25.2938 38.819 25.1727 37.7051 24.7958 36.6667H30.2042C29.8273 37.7051 29.7062 38.819 29.8511 39.9142C29.996 41.0094 30.4027 42.0535 31.0368 42.9581C31.6708 43.8628 32.5135 44.6013 33.4935 45.1112C34.4735 45.621 35.562 45.8872 36.6667 45.8872C37.7714 45.8872 38.8598 45.621 39.8398 45.1112C40.8198 44.6013 41.6625 43.8628 42.2966 42.9581C42.9306 42.0535 43.3373 41.0094 43.4822 39.9142C43.6272 38.819 43.5061 37.7051 43.1292 36.6667H43.5417C44.1495 36.6667 44.7324 36.4252 45.1621 35.9955C45.5919 35.5657 45.8333 34.9828 45.8333 34.375C45.8333 33.7672 45.5919 33.1843 45.1621 32.7545C44.7324 32.3248 44.1495 32.0833 43.5417 32.0833ZM40.6083 9.16667L37.6063 21.175C37.4808 21.6835 37.1849 22.1336 36.768 22.4505C36.351 22.7674 35.8381 22.9319 35.3146 22.9167H15.5375L12.1 9.16667H40.6083ZM18.3333 41.25C17.8801 41.25 17.437 41.1156 17.0602 40.8638C16.6833 40.612 16.3896 40.2541 16.2161 39.8353C16.0427 39.4166 15.9973 38.9558 16.0857 38.5112C16.1741 38.0667 16.3924 37.6584 16.7129 37.3379C17.0334 37.0174 17.4417 36.7991 17.8863 36.7107C18.3308 36.6223 18.7916 36.6677 19.2103 36.8411C19.6291 37.0146 19.987 37.3083 20.2388 37.6852C20.4906 38.062 20.625 38.5051 20.625 38.9583C20.625 39.5661 20.3836 40.149 19.9538 40.5788C19.524 41.0086 18.9411 41.25 18.3333 41.25ZM36.6667 41.25C36.2134 41.25 35.7703 41.1156 35.3935 40.8638C35.0166 40.612 34.7229 40.2541 34.5494 39.8353C34.376 39.4166 34.3306 38.9558 34.419 38.5112C34.5075 38.0667 34.7257 37.6584 35.0462 37.3379C35.3667 37.0174 35.775 36.7991 36.2196 36.7107C36.6641 36.6223 37.1249 36.6677 37.5436 36.8411C37.9624 37.0146 38.3203 37.3083 38.5721 37.6852C38.8239 38.062 38.9583 38.5051 38.9583 38.9583C38.9583 39.5661 38.7169 40.149 38.2871 40.5788C37.8574 41.0086 37.2745 41.25 36.6667 41.25Z" fill="white"/>
                 </svg>
-                <p>Comprar</p>
+                <p>Adicionar ao carrinho</p>
             </a>
 
             <!--Calculate Shipping-->
@@ -350,5 +350,203 @@ require "config/url.class.php";
             </div>
         </div>
     </section>
+
+
+    <!--Product Grid-->
+    <section class="ProductGridArea">
+        <!--Section Title-->
+        <h2 class="SectionTittle">Escoha o produto que combina com você</h2>
+
+        <!--Product Grid Cards-->
+        <section class="ProductGridCards">
+            <!--Card Product-->
+            <div class="CardProduct">
+                <div class="CardImageArea">
+                    <!--Class Product-->
+                    <span class="ClassProduct">Premium</span>
+                    <!--FAvorite Button-->
+                    <span class="FavoriteButton">
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.766 12.6371L10.7186 19.1683C10.7252 19.1745 10.7319 19.1808 10.7387 19.1871C10.8402 19.2826 10.9626 19.3977 11.0802 19.4883C11.219 19.5952 11.4274 19.7302 11.7111 19.7859L11.9037 18.8046L11.7111 19.7859C11.9019 19.8233 12.0981 19.8233 12.2889 19.7859L12.0963 18.8046L12.2889 19.7859C12.5726 19.7302 12.781 19.5952 12.9198 19.4883C13.0374 19.3977 13.1599 19.2826 13.2614 19.1871C13.2682 19.1807 13.2748 19.1745 13.2814 19.1683L20.234 12.6371C22.5661 10.4463 22.8493 6.84113 20.8879 4.31307L20.5785 3.91434C18.329 1.01491 13.9769 1.257 12 4.15843C10.0231 1.257 5.67102 1.01491 3.42146 3.91435L3.1121 4.31307C1.15068 6.84113 1.43388 10.4463 3.766 12.6371Z" fill="white" stroke="#EF716C" stroke-width="2"/>
+                        </svg>
+                    </span>
+                    <!--Image Product-->
+                    <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TEXTURA-NOBRE-25kg.png" alt="">
+                </div>
+                <!--Name Product-->
+                <h3 class="CardNameProduct">Textura Nobre Premium 27kg</h3>
+                <!--Divisor-->
+                <span class="DivisorCard"></span>
+                <!--Product Price-->
+                <h4 class="CardProductPrice">R$ 300,00</h4>
+            </div>
+
+            <!--Card Product-->
+            <div class="CardProduct">
+                <div class="CardImageArea">
+                    <!--Class Product-->
+                    <span class="ClassProduct">Premium</span>
+                    <!--FAvorite Button-->
+                    <span class="FavoriteButton">
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.766 12.6371L10.7186 19.1683C10.7252 19.1745 10.7319 19.1808 10.7387 19.1871C10.8402 19.2826 10.9626 19.3977 11.0802 19.4883C11.219 19.5952 11.4274 19.7302 11.7111 19.7859L11.9037 18.8046L11.7111 19.7859C11.9019 19.8233 12.0981 19.8233 12.2889 19.7859L12.0963 18.8046L12.2889 19.7859C12.5726 19.7302 12.781 19.5952 12.9198 19.4883C13.0374 19.3977 13.1599 19.2826 13.2614 19.1871C13.2682 19.1807 13.2748 19.1745 13.2814 19.1683L20.234 12.6371C22.5661 10.4463 22.8493 6.84113 20.8879 4.31307L20.5785 3.91434C18.329 1.01491 13.9769 1.257 12 4.15843C10.0231 1.257 5.67102 1.01491 3.42146 3.91435L3.1121 4.31307C1.15068 6.84113 1.43388 10.4463 3.766 12.6371Z" fill="white" stroke="#EF716C" stroke-width="2"/>
+                        </svg>
+                    </span>
+                    <!--Image Product-->
+                    <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TEXTURA-NOBRE-25kg.png" alt="">
+                </div>
+                <!--Name Product-->
+                <h3 class="CardNameProduct">Textura Nobre Premium 27kg</h3>
+                <!--Divisor-->
+                <span class="DivisorCard"></span>
+                <!--Product Price-->
+                <h4 class="CardProductPrice">R$ 300,00</h4>
+            </div>
+
+            <!--Card Product-->
+            <div class="CardProduct">
+                <div class="CardImageArea">
+                    <!--Class Product-->
+                    <span class="ClassProduct">Premium</span>
+                    <!--FAvorite Button-->
+                    <span class="FavoriteButton">
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.766 12.6371L10.7186 19.1683C10.7252 19.1745 10.7319 19.1808 10.7387 19.1871C10.8402 19.2826 10.9626 19.3977 11.0802 19.4883C11.219 19.5952 11.4274 19.7302 11.7111 19.7859L11.9037 18.8046L11.7111 19.7859C11.9019 19.8233 12.0981 19.8233 12.2889 19.7859L12.0963 18.8046L12.2889 19.7859C12.5726 19.7302 12.781 19.5952 12.9198 19.4883C13.0374 19.3977 13.1599 19.2826 13.2614 19.1871C13.2682 19.1807 13.2748 19.1745 13.2814 19.1683L20.234 12.6371C22.5661 10.4463 22.8493 6.84113 20.8879 4.31307L20.5785 3.91434C18.329 1.01491 13.9769 1.257 12 4.15843C10.0231 1.257 5.67102 1.01491 3.42146 3.91435L3.1121 4.31307C1.15068 6.84113 1.43388 10.4463 3.766 12.6371Z" fill="white" stroke="#EF716C" stroke-width="2"/>
+                        </svg>
+                    </span>
+                    <!--Image Product-->
+                    <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TEXTURA-NOBRE-25kg.png" alt="">
+                </div>
+                <!--Name Product-->
+                <h3 class="CardNameProduct">Textura Nobre Premium 27kg</h3>
+                <!--Divisor-->
+                <span class="DivisorCard"></span>
+                <!--Product Price-->
+                <h4 class="CardProductPrice">R$ 300,00</h4>
+            </div>
+
+            <!--Card Product-->
+            <div class="CardProduct">
+                <div class="CardImageArea">
+                    <!--Class Product-->
+                    <span class="ClassProduct">Premium</span>
+                    <!--FAvorite Button-->
+                    <span class="FavoriteButton">
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.766 12.6371L10.7186 19.1683C10.7252 19.1745 10.7319 19.1808 10.7387 19.1871C10.8402 19.2826 10.9626 19.3977 11.0802 19.4883C11.219 19.5952 11.4274 19.7302 11.7111 19.7859L11.9037 18.8046L11.7111 19.7859C11.9019 19.8233 12.0981 19.8233 12.2889 19.7859L12.0963 18.8046L12.2889 19.7859C12.5726 19.7302 12.781 19.5952 12.9198 19.4883C13.0374 19.3977 13.1599 19.2826 13.2614 19.1871C13.2682 19.1807 13.2748 19.1745 13.2814 19.1683L20.234 12.6371C22.5661 10.4463 22.8493 6.84113 20.8879 4.31307L20.5785 3.91434C18.329 1.01491 13.9769 1.257 12 4.15843C10.0231 1.257 5.67102 1.01491 3.42146 3.91435L3.1121 4.31307C1.15068 6.84113 1.43388 10.4463 3.766 12.6371Z" fill="white" stroke="#EF716C" stroke-width="2"/>
+                        </svg>
+                    </span>
+                    <!--Image Product-->
+                    <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TEXTURA-NOBRE-25kg.png" alt="">
+                </div>
+                <!--Name Product-->
+                <h3 class="CardNameProduct">Textura Nobre Premium 27kg</h3>
+                <!--Divisor-->
+                <span class="DivisorCard"></span>
+                <!--Product Price-->
+                <h4 class="CardProductPrice">R$ 300,00</h4>
+            </div>
+        </section>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <!--Section Divisor-->
+        <span class="SectionDivisor"></span>
+
+        <!--Footer Superior-->
+        <section class="FooterSuperior">
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Atendimento</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Acompanhar pedido</a></li>
+                    <li><a href="">Perguntas frequentes </a></li>
+                    <li><a href="">Atendimento pelo WhatsApp</a></li>
+                    <li><a href="">Compre pelo instagram</a></li>
+                    <li><a href="">Tudo sobre nossas tintas</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Como trabalhamos</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Como comprar</a></li>
+                    <li><a href="">Pagamento</a></li>
+                    <li><a href="">Termos e condições de uso</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Troca e devolução</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Pintow para você</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Compra Planejada</a></li>
+                    <li><a href="">Ofertas Especiais</a></li>
+                    <li><a href="">Pacote Reforma</a></li>
+                    <li><a href="">Lojas Parceiras</a></li>
+                    <li><a href="">Arquiteto Pintow</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Institucional</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Sobre a Pintow</a></li>
+                    <li><a href="">Nossa Experiência</a></li>
+                    <li><a href="">Imprensa</a></li>
+                    <li><a href="">Lojas Parceiras</a></li>
+                    <li><a href="">Ranking</a></li>
+                </ul>
+            </div>
+            <!--Column Footer-->
+            <div class="ColumnFooter">
+                <h4 class="ColumnFooterTitle">Cartelas</h4>
+                <ul class="ColumnFooterList">
+                    <li><a href="">Cartela Pisos </a></li>
+                    <li><a href="">Cartela Esmaltes</a></li>
+                    <li><a href="">Cartela Texturas</a></li>
+                    <li><a href="">Cartela Tintas</a></li>
+                    <li><a href="">Cartela Colors 20</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Section Divisor-->
+        <span class="SectionDivisor"></span>
+
+        <!--Footer Inferior-->
+        <section class="FooterInferior">
+            <div class="LeftFooterInferior">
+                <div class="ColumnFooter">
+                    <h4 class="ColumnFooterTitle">Formas de pagamento</h4>
+                    <ul class="ColumnFooterInferior">
+                        <li><img src="<?php echo $URI->base("/assets/img/visa-logo-1.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/Mastercard-Logo.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/Elo_logo.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/PayPal-Logo.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/mercado-pago-logo 1.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/pix-bc-logo-1 1.png"); ?>" alt=""></li>
+                        <li><img src="<?php echo $URI->base("/assets/img/barcode-png 1.png"); ?>" alt=""></li>
+                    </ul>
+                </div>
+    
+                <div class="ColumnFooter">
+                    <h4 class="ColumnFooterTitle">Compra segura</h4>
+                    <ul class="ColumnFooterInferior">
+                        <li><img src="<?php echo $URI->base("/assets/img/segurança_logos.png"); ?>" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="RigthFooterInferior">
+                <!--Logo-->
+                <div class="NavLogo">
+                    <img src="<?php echo $URI->base("/assets/img/Logo_Pintow_Roxo.svg"); ?>" alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
 
 </body>
