@@ -519,16 +519,17 @@ footer {
 .NameProduct {
   font-size: 24px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
 }
 
 .ColorId {
   display: flex;
   justify-content: space-around;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   margin-top: 10px;
+  color: #9c9c9c;
 }
 
 .SubTitleInfoProduct {
@@ -576,6 +577,13 @@ footer {
   border-radius: 50%;
   border: 1px #C2C2C2 solid;
   margin-right: 10px;
+  transition: .2s;
+}
+
+.ButtonLess:hover ,
+.ButtonMore:hover {
+  background-color: #3E4095;
+  border: 1px #5d5fb1 solid;
 }
 
 .ButtonMore {
@@ -611,7 +619,7 @@ footer {
 }
 
 .CalculateShipping {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .LabelCalculateShipping {
@@ -622,7 +630,7 @@ footer {
 }
 
 .LabelCalculateShipping a{
-  font-weight: 300;
+  font-weight: 400;
   color: #3E4095;
 }
 
@@ -633,7 +641,6 @@ footer {
   border: 1px #C2C2C2 solid;
   padding-right: 20px;
   border-radius: 8px;
-  color: #3E4095;
 }
 
 .InputCalculateShipping input {
@@ -644,6 +651,11 @@ footer {
 
 .InputCalculateShipping input:focus {
   outline: 0;
+}
+
+.InputCalculateShipping a {
+  font-weight: 600;
+  color: #3E4095;
 }
 
 .ShippingResponse {
@@ -661,6 +673,10 @@ footer {
 .HeadShipping {
   display: flex;
   justify-content: space-between;
+}
+
+.HeadShipping h3 {
+  color: #0d9e08;
 }
 
 .SubtitleCardInfoProduct svg {
@@ -685,10 +701,84 @@ footer {
 
 .DetailInfoProduct h2{
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
+  margin-top: 40px;
+  color: #b6b6b6;
 }
 
 .DetailInfoProduct p {
   line-height: 140%;
   margin-top: 10px;
+}
+
+.question {
+  border-bottom: 1px solid #ccc;
+  padding: 0px;
+  background-color: #393ba1;
+  color: #fff;
+}
+
+.question i {
+  color: #1e2068;
+  margin-right: 10px;
+}
+
+#question-Informacoes {
+  margin-top: 20px;
+}
+
+.question#question-Diluiçao {
+  background-color: #4e50bd;
+}
+
+.question#question-Aplicação {
+  background-color: #6264c5;
+}
+
+.question#question-Secagem {
+  background-color: #7778d1;
+}
+
+.question#question-CompBasica {
+  background-color: #9293dd;
+}
+
+.question#question-PrepSup {
+  background-color: #9d9eda;
+}
+
+.question#question-Advetencia {
+  background-color: #abace0;
+}
+
+.question#question-Precaucoes {
+  background-color: #bfbfe7;
+}
+
+.question#question-Rendimento {
+  background-color: #cdcdeb;
+}
+
+.question#question-Uso{
+  background-color: #dadaee;
+}
+
+.question input,
+.question .answer { display: none ; padding: 20px 20px; color: #cecece; }
+
+.question label {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+  font-weight: 500;
+  
+  
+}
+
+.question input:checked ~ .answer {
+  display: block;
+  background-color: #fff;
+  color: #555;
 }

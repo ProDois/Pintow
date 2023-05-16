@@ -95,11 +95,11 @@ require "config/url.class.php";
 
                 <span class="ColorSelection Roxo"></span>
 
-                <span class="ColorSelection Yellow"></span>
+                <span class="ColorSelection"></span>
 
-                <span class="ColorSelection Red"></span>
+                <span class="ColorSelection"></span>
 
-                <span class="ColorSelection Green"></span>
+                <span class="ColorSelection"></span>
 
                 <span class="ColorSelection"></span>
 
@@ -145,7 +145,7 @@ require "config/url.class.php";
                 <div class="AmountProduct">
                     <!--Less Button-->
                     <div class="ButtonLess">
-                        <svg width="15" height="15" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="10" height="10" viewBox="0 0 9 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.378906 3.21998V0.0999756H8.62891V3.21998H0.378906Z" fill="#C2C2C2"/>
                         </svg>
                     </div>
@@ -153,7 +153,7 @@ require "config/url.class.php";
                     <input type="number" name="" id="">
                     <!--More Button-->
                     <div class="ButtonMore">
-                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="10" height="10" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.91254 14.25V0.75H9.12254V14.25H5.91254ZM0.602539 9V6H14.4325V9H0.602539Z" fill="#C2C2C2"/>
                         </svg>
                     </div>
@@ -162,7 +162,7 @@ require "config/url.class.php";
 
             <!--Button Shop-->
             <a class="ButtonShop">
-                <svg width="28" height="28" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="24" height="24" viewBox="0 0 46 46" fill="#fff" xmlns="http://www.w3.org/2000/svg">
                     <path d="M43.5417 32.0833H11.4583C10.8505 32.0833 10.2677 31.8419 9.83788 31.4121C9.40811 30.9823 9.16667 30.3995 9.16667 29.7917C9.16667 29.1839 9.40811 28.601 9.83788 28.1712C10.2677 27.7414 10.8505 27.5 11.4583 27.5H35.3833C36.9157 27.5001 38.4041 26.9883 39.6123 26.0458C40.8205 25.1033 41.6792 23.7842 42.0521 22.2979L45.8333 7.425C45.9192 7.08677 45.9266 6.7334 45.8551 6.39185C45.7836 6.0503 45.6351 5.72959 45.4208 5.45417C45.198 5.17168 44.9117 4.94564 44.5852 4.79435C44.2588 4.64306 43.9013 4.57077 43.5417 4.58333H10.9083C10.4355 3.24603 9.56067 2.0877 8.40369 1.26715C7.24671 0.446597 5.86425 0.00398638 4.44583 0H2.29167C1.68388 0 1.10098 0.241443 0.671214 0.671214C0.241443 1.10098 0 1.68388 0 2.29167C0 2.89945 0.241443 3.48235 0.671214 3.91212C1.10098 4.34189 1.68388 4.58333 2.29167 4.58333H4.44583C4.96933 4.56808 5.48226 4.7326 5.89922 5.04949C6.31619 5.36638 6.61203 5.81653 6.7375 6.325L6.875 7.425L10.8396 22.9167C9.01622 22.9987 7.30013 23.8017 6.06884 25.1491C4.83754 26.4964 4.19191 28.2777 4.27396 30.101C4.35601 31.9244 5.15903 33.6405 6.50636 34.8718C7.85369 36.1031 9.63497 36.7487 11.4583 36.6667H11.8708C11.4939 37.7051 11.3728 38.819 11.5178 39.9142C11.6627 41.0094 12.0694 42.0535 12.7034 42.9581C13.3375 43.8628 14.1802 44.6013 15.1602 45.1112C16.1402 45.621 17.2286 45.8872 18.3333 45.8872C19.438 45.8872 20.5265 45.621 21.5065 45.1112C22.4865 44.6013 23.3292 43.8628 23.9632 42.9581C24.5973 42.0535 25.004 41.0094 25.1489 39.9142C25.2938 38.819 25.1727 37.7051 24.7958 36.6667H30.2042C29.8273 37.7051 29.7062 38.819 29.8511 39.9142C29.996 41.0094 30.4027 42.0535 31.0368 42.9581C31.6708 43.8628 32.5135 44.6013 33.4935 45.1112C34.4735 45.621 35.562 45.8872 36.6667 45.8872C37.7714 45.8872 38.8598 45.621 39.8398 45.1112C40.8198 44.6013 41.6625 43.8628 42.2966 42.9581C42.9306 42.0535 43.3373 41.0094 43.4822 39.9142C43.6272 38.819 43.5061 37.7051 43.1292 36.6667H43.5417C44.1495 36.6667 44.7324 36.4252 45.1621 35.9955C45.5919 35.5657 45.8333 34.9828 45.8333 34.375C45.8333 33.7672 45.5919 33.1843 45.1621 32.7545C44.7324 32.3248 44.1495 32.0833 43.5417 32.0833ZM40.6083 9.16667L37.6063 21.175C37.4808 21.6835 37.1849 22.1336 36.768 22.4505C36.351 22.7674 35.8381 22.9319 35.3146 22.9167H15.5375L12.1 9.16667H40.6083ZM18.3333 41.25C17.8801 41.25 17.437 41.1156 17.0602 40.8638C16.6833 40.612 16.3896 40.2541 16.2161 39.8353C16.0427 39.4166 15.9973 38.9558 16.0857 38.5112C16.1741 38.0667 16.3924 37.6584 16.7129 37.3379C17.0334 37.0174 17.4417 36.7991 17.8863 36.7107C18.3308 36.6223 18.7916 36.6677 19.2103 36.8411C19.6291 37.0146 19.987 37.3083 20.2388 37.6852C20.4906 38.062 20.625 38.5051 20.625 38.9583C20.625 39.5661 20.3836 40.149 19.9538 40.5788C19.524 41.0086 18.9411 41.25 18.3333 41.25ZM36.6667 41.25C36.2134 41.25 35.7703 41.1156 35.3935 40.8638C35.0166 40.612 34.7229 40.2541 34.5494 39.8353C34.376 39.4166 34.3306 38.9558 34.419 38.5112C34.5075 38.0667 34.7257 37.6584 35.0462 37.3379C35.3667 37.0174 35.775 36.7991 36.2196 36.7107C36.6641 36.6223 37.1249 36.6677 37.5436 36.8411C37.9624 37.0146 38.3203 37.3083 38.5721 37.6852C38.8239 38.062 38.9583 38.5051 38.9583 38.9583C38.9583 39.5661 38.7169 40.149 38.2871 40.5788C37.8574 41.0086 37.2745 41.25 36.6667 41.25Z" fill="white"/>
                 </svg>
                 <p>Comprar</p>
@@ -179,7 +179,7 @@ require "config/url.class.php";
 
                 <div class="InputCalculateShipping">
                     <input type="text">
-                    <a>ALTERAR</a>
+                    <a href="">ALTERAR</a>
                 </div>
             </div>
 
@@ -194,7 +194,7 @@ require "config/url.class.php";
                         </svg>
                         Receba em casa
                     </h2>
-                    <h2 class="SubtitleCardInfoProduct">GRÁTIS</h2>
+                    <h3 class="SubtitleCardInfoProduct">R$ 14,90</h3>
                 </div>
                 <!--Text Body Shipping-->
                 <p class="TextBodyShipping">Em até  14 dias úteis após a confiramção do  pagamento</p>
@@ -213,11 +213,104 @@ require "config/url.class.php";
         <div class="ColumnDetailInfoProduct">
             <h2>Descrição</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, metus sodales pellentesque tristique, neque libero condimentum nisi, eu tincidunt turpis diam eget odio. Vestibulum turpis libero, fermentum id turpis non, dignissim pharetra tellus. Etiam sit amet erat sit amet magna fringilla dignissim nec id metus. Pellentesque eleifend justo sed ante dapibus, eu fringilla purus facilisis. Morbi id varius diam. Nam dictum et odio posuere dignissim. Nunc sagittis volutpat mauris eget sodales.</p>
+        
+            <h2>Aplicação</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, metus sodales pellentesque tristique, neque libero condimentum nisi, eu tincidunt turpis diam eget odio. Vestibulum turpis libero, fermentum id turpis non, dignissim pharetra tellus. Etiam sit amet erat sit amet magna fringilla dignissim nec id metus. Pellentesque eleifend justo sed ante dapibus, eu fringilla purus facilisis. Morbi id varius diam. Nam dictum et odio posuere dignissim. Nunc sagittis volutpat mauris eget sodales.</p>
         </div>
 
         <div class="ColumnDetailInfoProduct">
             <h2>Informações técnicas</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, metus sodales pellentesque tristique, neque libero condimentum nisi, eu tincidunt turpis diam eget odio. Vestibulum turpis libero, fermentum id turpis non, dignissim pharetra tellus. Etiam sit amet erat sit amet magna fringilla dignissim nec id metus. Pellentesque eleifend justo sed ante dapibus, eu fringilla purus facilisis. Morbi id varius diam. Nam dictum et odio posuere dignissim. Nunc sagittis volutpat mauris eget sodales.</p>
+            
+            <div class='question' id="question-Informacoes">
+                <input type='checkbox' id='question-1'>
+                <label for='question-1'><i class="fa-solid fa-droplet"></i>  Informações</label>
+                <div class='answer'>
+                Vercryl Toque Suave Acetinado Premium deixa o acabamento com um toque de sofisticação. Sua parede fica com brilho intermediário entre o fosco e o semibrilho. Fórmula sem cheiro* entre duas e três horas após aplicação. Possui elevado poder de cobertura, ótimo rendimento e é lavável. Produto Premium, indicado para pinturas externas e internas em superfícies de reboco, texturas, concretos, massa acrílica ou corrida, fibrocimento, gesso e repintura.
+                </div>
+            </div>
+
+            <div class='question' id="question-Diluiçao">
+                <input type='checkbox' id='question-2'>
+                <label for='question-2'><i class="fa-solid fa-paint-roller"></i> Diluição</label>
+                <div class='answer'>
+                    Diluir 30% com água potável para todas as superfícies.
+
+                    PISTOLA:
+                    Diluir 30% com água potável, pressão entre 2,2 e 2,8kgf/cm² ou 30 a 35 lbs/pol².
+                </div>
+            </div>
+
+            <div class='question' id="question-Aplicação">
+                <input type='checkbox' id='question-3'>
+                <label for='question-3'><i class="fa-solid fa-clock"></i> Aplicação</label>
+                <div class='answer'>
+                    Rolo de lã (pelo baixo), pincel ou trincha.
+
+                    DEMÃO: Duas a três, com intervalo de quatro horas.
+
+                    1 Demão: recomendamos somente para repintura e quando se mantem a cor original.
+
+                    2 Demãos: normalmente quase todas as superfícies são necessárias pelo menos duas demãos para obter um bom resultado.
+
+                    3 Demãos: recomendamos quando a cor escolhida for escura ou quando se pretende pintar com uma cor clara sobre um fundo escuro.
+                </div>
+            </div>
+
+            <div class='question' id="question-Secagem">
+                <input type='checkbox' id='question-4'>
+                <label for='question-4'><i class="fa-solid fa-droplet"></i> Secagem</label>
+                <div class='answer'>
+                    Segunda resposta.
+                </div>
+            </div>
+
+            <div class='question' id="question-CompBasica">
+                <input type='checkbox' id='question-5'>
+                <label for='question-5'><i class="fa-solid fa-flask"></i> Composição Básica</label>
+                <div class='answer'>
+                    Segunda resposta.
+                </div>
+            </div>
+
+            <div class='question' id="question-PrepSup">
+                <input type='checkbox' id='question-6'>
+                <label for='question-6'><i class="fa-solid fa-hands-bubbles"></i> Preparação de Superfície</label>
+                <div class='answer'>
+                    Segunda resposta.
+                </div>
+            </div>
+
+            <div class='question' id="question-Advetencia">
+                <input type='checkbox' id='question-7'>
+                <label for='question-7'><i class="fa-solid fa-triangle-exclamation"></i> Advertência</label>
+                <div class='answer'>
+                    Segunda resposta.
+                </div>
+            </div>
+
+            <div class='question' id="question-Precaucoes">
+                <input type='checkbox' id='question-8'>
+                <label for='question-8'><i class="fa-solid fa-eye"></i> Precauções</label>
+                <div class='answer'>
+                    Segunda resposta.
+                </div>
+            </div>
+
+            <div class='question' id="question-Rendimento">
+                <input type='checkbox' id='question-9'>
+                <label for='question-9'><i class="fa-solid fa-fill-drip"></i> Rendimento Confiável</label>
+                <div class='answer'>
+                    Segunda resposta.
+                </div>
+            </div>
+
+            <div class='question' id="question-Uso">
+                <input type='checkbox' id='question-10'>
+                <label for='question-10'><i class="fa-solid fa-square-check"></i> Uso</label>
+                <div class='answer'>
+                    Segunda resposta.
+                </div>
+            </div>
         </div>
     </section>
 
