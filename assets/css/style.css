@@ -473,15 +473,16 @@ footer {
 
 .Colors {
   display: grid;
-  grid-template-columns: repeat(4, 50px);
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
   align-items: center;
   justify-items: center;
   justify-content: center;
 }
 
+/*
 .ColorSelection {
   display: block;
   width: 40px;
@@ -489,22 +490,69 @@ footer {
   border: 1px #C2C2C2 solid;
   border-radius: 50%;
 }
+*/
 
-.ColorSelection.Roxo {
-  background-color: #3E4095;
+.ColorSelection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF70;
+  border-radius: 20px;
+}
+
+.ColorSelection.Preto {
+  background-color: #2b2a29;
 }
 
 .ColorSelection.Yellow {
-  background-color: #dae90e;
+  background-color: #fcc300;
 }
 
 .ColorSelection.Red {
-  background-color: #e40f0f;
+  background-color: #fff0c3;
 }
 
 .ColorSelection.Green {
-  background-color: #13d10c;
+  background-color: #c9b387;
 }
+
+.ColorSelection.Laranja {
+  background-color: #ef7f1a;
+}
+
+.ColorSelection.AzulMar {
+  background-color: #2c7f98;
+}
+
+.ColorSelection.AzulFraça {
+  background-color: #273f63;
+}
+
+.ColorSelection.AzulDelrey {
+  background-color: #35334c;
+}
+
+.ColorSelection.Conhaque {
+  background-color: #b07449;
+}
+
+.ColorSelection.Tabaco {
+  background-color: #4d340a;
+}
+
+.ColorSelection.VermelhoShasis {
+  background-color: #591410;
+}
+
+.ColorSelection.Vermelho {
+  background-color: #c42526;
+}
+
 
 
 /*Info Product*/
@@ -539,9 +587,26 @@ footer {
   margin-top: 40px;
 }
 
-.SubTitleInfoProduct.ColorsTitle {
+.ColorsTitle {
+  display: flex;
+  align-items: center;
   margin-top: 60px;
-  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #393ba1;
+}
+
+.ColorsTitle::before {
+  content: '';
+  display: block;
+  top: 50%;
+  left: 0;
+  background-color: #393ba1;
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
 }
 
 .OtherFinishes {

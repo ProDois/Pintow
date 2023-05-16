@@ -89,34 +89,71 @@ require "config/url.class.php";
             <div class="ImageProduct">
                 <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/01/xTOQUE_SUAVE2.png.pagespeed.ic_.pU3B6piX1Q.png" alt="">
             </div>
-            <h2 class="SubTitleInfoProduct ColorsTitle">Cores</h2>
+            <h2 class="ColorsTitle">Cores</h2>
             <!--Colors-->
             <div class="Colors">
 
-                <span class="ColorSelection Roxo"></span>
+                <span class="ColorSelection Preto">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection Yellow">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection Red">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection Green">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection Laranja">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection AzulMar">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection AzulFraca">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection AzulDelrey">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection Conhaque">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection Tabaco">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection VermelhoShasis">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
 
-                <span class="ColorSelection"></span>
+                <span class="ColorSelection Vermelho">
+                    <h4>Preto</h4>
+                    <p>#2406</p>
+                </span>
             </div>
+
         </section>
 
         <!--Info Product  Area-->
@@ -225,7 +262,7 @@ require "config/url.class.php";
                 <input type='checkbox' id='question-1'>
                 <label for='question-1'><i class="fa-solid fa-droplet"></i>  Informações</label>
                 <div class='answer'>
-                Vercryl Toque Suave Acetinado Premium deixa o acabamento com um toque de sofisticação. Sua parede fica com brilho intermediário entre o fosco e o semibrilho. Fórmula sem cheiro* entre duas e três horas após aplicação. Possui elevado poder de cobertura, ótimo rendimento e é lavável. Produto Premium, indicado para pinturas externas e internas em superfícies de reboco, texturas, concretos, massa acrílica ou corrida, fibrocimento, gesso e repintura.
+                    Vercryl Toque Suave Acetinado Premium deixa o acabamento com um toque de sofisticação. Sua parede fica com brilho intermediário entre o fosco e o semibrilho. Fórmula sem cheiro* entre duas e três horas após aplicação. Possui elevado poder de cobertura, ótimo rendimento e é lavável. Produto Premium, indicado para pinturas externas e internas em superfícies de reboco, texturas, concretos, massa acrílica ou corrida, fibrocimento, gesso e repintura.
                 </div>
             </div>
 
