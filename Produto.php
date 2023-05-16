@@ -167,6 +167,21 @@ require "config/url.class.php";
                 </svg>
                 <p>Comprar</p>
             </a>
+
+            <!--Calculate Shipping-->
+            <div class="CalculateShipping">
+                <h2 class="SubtitleCardInfoProduct">Calcule Frete</h2>
+
+                <div class="LabelCalculateShipping">
+                    <h3>CEP</h3>
+                    <a href="">Não sei meu CEP</a>
+                </div>
+
+                <div class="InputCalculateShipping">
+                    <input type="text">
+                    <a>ALTERAR</a>
+                </div>
+            </div>
         </section>
 
     </section>
