@@ -204,4 +204,21 @@ require "config/url.class.php";
         </section>
 
     </section>
+
+    <!--Section Divisor-->
+    <span class="SectionDivisor ProductPage"></span>
+
+    <!--Detail Info Product-->
+    <section class="DetailInfoProduct">
+        <div class="ColumnDetailInfoProduct">
+            <h2>Descrição</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, metus sodales pellentesque tristique, neque libero condimentum nisi, eu tincidunt turpis diam eget odio. Vestibulum turpis libero, fermentum id turpis non, dignissim pharetra tellus. Etiam sit amet erat sit amet magna fringilla dignissim nec id metus. Pellentesque eleifend justo sed ante dapibus, eu fringilla purus facilisis. Morbi id varius diam. Nam dictum et odio posuere dignissim. Nunc sagittis volutpat mauris eget sodales.</p>
+        </div>
+
+        <div class="ColumnDetailInfoProduct">
+            <h2>Informações técnicas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat, metus sodales pellentesque tristique, neque libero condimentum nisi, eu tincidunt turpis diam eget odio. Vestibulum turpis libero, fermentum id turpis non, dignissim pharetra tellus. Etiam sit amet erat sit amet magna fringilla dignissim nec id metus. Pellentesque eleifend justo sed ante dapibus, eu fringilla purus facilisis. Morbi id varius diam. Nam dictum et odio posuere dignissim. Nunc sagittis volutpat mauris eget sodales.</p>
+        </div>
+    </section>
+
 </body>

@@ -670,3 +670,25 @@ footer {
 .TextBodyShipping {
   padding-left: 44px ;
 }
+
+/*Detail Info Product*/
+.DetailInfoProduct {
+  padding: 40px 10vw;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ColumnDetailInfoProduct {
+  width: 47.5%;
+}
+
+.DetailInfoProduct h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.DetailInfoProduct p {
+  line-height: 140%;
+  margin-top: 10px;
+}
