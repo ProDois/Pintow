@@ -646,7 +646,27 @@ footer {
   outline: 0;
 }
 
+.ShippingResponse {
+  margin-top: 40px;
+}
 .SubtitleCardInfoProduct {
   font-size: 18px;
   font-weight: 600;
+}
+
+.SubtitleCardInfoProduct {
+  display: flex;
+}
+
+.HeadShipping {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SubtitleCardInfoProduct svg {
+  margin-right: 20px;
+}
+
+.TextBodyShipping {
+  padding-left: 44px ;
 }
