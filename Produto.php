@@ -446,6 +446,28 @@ require "config/url.class.php";
                 <!--Product Price-->
                 <h4 class="CardProductPrice">R$ 300,00</h4>
             </div>
+
+            <!--Card Product-->
+            <div class="CardProduct">
+                <div class="CardImageArea">
+                    <!--Class Product-->
+                    <span class="ClassProduct">Premium</span>
+                    <!--FAvorite Button-->
+                    <span class="FavoriteButton">
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.766 12.6371L10.7186 19.1683C10.7252 19.1745 10.7319 19.1808 10.7387 19.1871C10.8402 19.2826 10.9626 19.3977 11.0802 19.4883C11.219 19.5952 11.4274 19.7302 11.7111 19.7859L11.9037 18.8046L11.7111 19.7859C11.9019 19.8233 12.0981 19.8233 12.2889 19.7859L12.0963 18.8046L12.2889 19.7859C12.5726 19.7302 12.781 19.5952 12.9198 19.4883C13.0374 19.3977 13.1599 19.2826 13.2614 19.1871C13.2682 19.1807 13.2748 19.1745 13.2814 19.1683L20.234 12.6371C22.5661 10.4463 22.8493 6.84113 20.8879 4.31307L20.5785 3.91434C18.329 1.01491 13.9769 1.257 12 4.15843C10.0231 1.257 5.67102 1.01491 3.42146 3.91435L3.1121 4.31307C1.15068 6.84113 1.43388 10.4463 3.766 12.6371Z" fill="white" stroke="#EF716C" stroke-width="2"/>
+                        </svg>
+                    </span>
+                    <!--Image Product-->
+                    <img src="http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TEXTURA-NOBRE-25kg.png" alt="">
+                </div>
+                <!--Name Product-->
+                <h3 class="CardNameProduct">Textura Nobre Premium 27kg</h3>
+                <!--Divisor-->
+                <span class="DivisorCard"></span>
+                <!--Product Price-->
+                <h4 class="CardProductPrice">R$ 300,00</h4>
+            </div>
         </section>
     </section>
 
