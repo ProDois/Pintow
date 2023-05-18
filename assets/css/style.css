@@ -72,6 +72,10 @@ section {
 }
 
 /*************************Home Commerce**************************/
+/*Superior Container*/
+.SuperiorContainer {
+  background: linear-gradient(#522fa3 0,  #2e3180 100%);
+}
 
 /*Topbar*/
 .Topbar {
@@ -79,7 +83,7 @@ section {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: #3E4095;
+  /*background-color: #3E4095;*/
   padding: 12px 5vw;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -98,8 +102,8 @@ section {
 .Topbar_ChangeRegion {
   display: flex;
   align-items: center;
-  color: #B4B4B4;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #ffffff50;
   padding: 8px 16px;
   border-radius: 8px;
 }
@@ -110,7 +114,7 @@ section {
 
 .Topbar_ChangeRegion p  b {
   font-weight: 600;
-  color: #8C71C5;
+  color: #553b8b;
 }
 
 .Topbar_ChangeRegion svg {
@@ -123,7 +127,6 @@ section {
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   padding: 24px 5vw;
-  background-color: #fff;
 }
 
 .RightNavbar {
@@ -166,9 +169,14 @@ section {
 }
 
 .NavLinks li{
-  margin-right: 80px;
+  margin-right: 40px;
   font-weight: 500;
   color: #3E4095;
+  color: #fff;
+  color: #ffffff;
+  background-color: #ffffff30;
+  padding: 8px 16px;
+  border-radius: 20px;
 }
 
 .NavButtons {
@@ -179,7 +187,6 @@ section {
   display: flex;
   align-items: center;
   padding: 8px 16px;
-  border: 1px #6EC3FC solid;
   color: #6EC3FC;
   font-size: 14px;
   font-weight: 500;
@@ -195,9 +202,9 @@ section {
 .Banner-Home {
   width: 100%;
   height: 40vh;
-  background-color: #522fa3;
+  /*background-color: #522fa3;*/
   background-image: url('');
-  background: linear-gradient(#522fa3 0,  #2e3180 100%);
+  /*background: linear-gradient(#522fa3 0,  #2e3180 100%);*/
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -299,12 +306,11 @@ section {
 }
 
 .SectionTittle {
-  font-family: 'Montserrat', sans-serif;
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 40px;
-  color: #1e2068;
+  color: #000000;
 }
 
 .ProductGridCards {
@@ -377,7 +383,8 @@ section {
   position: absolute;
   top: 20px;
   right: 20px;
-  display: none;
+  font-weight: 600;
+  color: #0d9e08;
 }
 
 .CardProduct.GridCard2colum .FavoriteButton {
