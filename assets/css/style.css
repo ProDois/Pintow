@@ -194,9 +194,9 @@ section {
 /*Banner Home*/
 .Banner-Home {
   width: 100%;
-  height: 60vh;
+  height: 40vh;
   background-color: #2F72A3;
-  background-image: url('http://verbrascorp.com.br/home/wp-content/uploads/2023/03/TELA-CAPA_4-1.png');
+  background-image: url('');
 }
 
 .Detalhe {
@@ -239,13 +239,16 @@ section {
 /*Product Grid Area*/
 .ProductGridArea {
   padding: 40px 10vw;
+
 }
 
 .SectionTittle {
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 300;
   text-align: center;
+  margin-bottom: 40px;
+  color: #1e2068;
 }
 
 .ProductGridCards {
@@ -254,6 +257,8 @@ section {
   grid-template-columns: repeat(5, calc((100% / 5) - 30px));
   grid-column-gap: 24px;
   grid-row-gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 
@@ -265,9 +270,11 @@ section {
   border-radius: 12px;
   position: relative;
   transition: .1s;
-  border: 1px #d8d8d8 solid;
-  background: #f5f5f5;
-  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+  background: #f7f7f7;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08), 0px 0px 40px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 0px 20px -14px #00000075;
+
+  border: .5px #e0e0e0 solid;
 }
 
 .CardProduct.GridCard2colum {
@@ -290,13 +297,13 @@ section {
   position: absolute;
   top: 20px;
   left: 20px;
-  font-size: 14px;
+  font-size: 12px;
   padding: 4px 8px;
   border-radius: 20px;
-  border: 1px #8283c4 solid;
-  font-weight: 400;
   transition: .2s;
-  color: #8283c4;
+  background-color: #5051a5;
+  color: #fff;
+  font-weight: 400;
 }
 
 
@@ -314,6 +321,7 @@ section {
   position: absolute;
   top: 20px;
   right: 20px;
+  display: none;
 }
 
 .CardProduct.GridCard2colum .FavoriteButton {
@@ -325,29 +333,21 @@ section {
   width: 80%;
 }
 
-.DivisorCard {
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #e2e2e2;
-  margin: 10px 0;
-}
-
-.CardProduct.GridCard2colum .DivisorCard {
-  height: 2px;
-  margin: 20px 0;
-}
-
 .CardNameProduct,
 .CardProductPrice {
   text-align: center;
 }
 
+.CardNameProduct {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 .CardProductPrice {
-  font-size: 18px;
-  font-family: 'inter';
+  font-size: 16px;
   font-weight: 700;
-  color: #3E4095;
+  margin-top: 10px;
+  color: #000000;
 }
 
 .CardProduct.GridCard2colum .CardNameProduct {
@@ -357,24 +357,12 @@ section {
 /*Card Product Hover*/
 .CardProduct:hover {
   background-color: #3E4095;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
-}
-
-.CardProduct:hover  .ClassProduct {
-  background-color: #5051a5;
-  border: 1px #5051a5 solid;
-  color: #fff;
-  font-weight: 400;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05), 0px 0px 30px rgba(0, 0, 0, 0.15);
 }
 
 .CardProduct:hover .FavoriteButton {
   display: none;
 }
-
-.CardProduct:hover .DivisorCard{
-  background-color: #5051a5;
-}
-
 
 .CardProduct:hover .CardNameProduct,
 .CardProduct:hover .CardProductPrice {
