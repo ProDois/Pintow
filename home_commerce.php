@@ -71,7 +71,9 @@ require "config/url.class.php";
 
     <!--Banner Area-->
     <section class="Banner-Home">
-
+        <h1>Compre na Pintow</h1>
+        <p>Clicou? Chegou!</p>
+        <div class='icon-scroll'></div>
     </section>
     <div class="Detalhe">
         
